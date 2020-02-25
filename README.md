@@ -1,2 +1,5 @@
-# linux-scripts
-A few scripts I use to get everything I need on Linux set up quickly.
+# Linux Scripts
+A few useful scripts I wrote for Linux distros for myself.
+
+# Notice
+Feel free to do whatever you want with these. Run these scripts at your own risk.
