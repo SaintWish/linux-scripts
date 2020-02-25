@@ -24,6 +24,7 @@ sudo snap install moonlight vlc
 
 echo "Installing Graviton..."
 wgen -O ~/Downloads/graviton.deb "https://github.com/Graviton-Code-Editor/Graviton-App/releases/download/1.2.0/Graviton-1.2.0-amd64-linux.deb"
+sudo dpkg -i ~/Downloads/graviton.deb
 
 echo "Installing Discord..."
 wget -O ~/Downloads/discord.deb "https://discordapp.com/api/download?platform=linux&format=deb"
@@ -32,6 +33,10 @@ sudo dpkg -i ~/Downloads/discord.deb
 echo "Installing Github Desktop..."
 wget -O ~/Downloads/github-desktop.deb "https://github.com/shiftkey/desktop/releases/download/release-2.3.1-linux1/GitHubDesktop-linux-2.3.1-linux1.deb"
 sudo dpkg -i ~/Downloads/github-desktop.deb
+
+echo "Installing KeeWeb..."
+wget -O ~/Downloads/keeweb.deb "https://github.com/keeweb/keeweb/releases/download/v1.12.3/KeeWeb-1.12.3.linux.x64.zip"
+sudo dpkg -i ~/Downloads/keeweb.deb
 
 echo "Installing Go 1.13.8..."
 wget -O ~/Downloads/golang.tar.gz https://dl.google.com/go/go1.13.8.linux-amd64.tar.gz
