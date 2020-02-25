@@ -43,7 +43,7 @@ echo "export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin" >> ~/.profile
 sudo apt-get purge --auto-remove plasma-discover
 
 ##Do updates for everything, then we're ready for restart.
-sudo apt-get install -f -y #Incase some dependencies didn't get installed.
+#sudo apt-get install -f -y #Incase some dependencies didn't get installed.
 sudo apt-get update && sudo apt-get upgrade -y
 
 echo $'\n'$"*** All done! Please reboot now. ***"
